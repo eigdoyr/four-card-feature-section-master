@@ -1,0 +1,93 @@
+:root {
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+  --very-dark-blue: hsl(234, 12%, 34%);
+  --grayish-blue: hsl(229, 6%, 66%);
+  --very-light-gray: hsl(0, 0%, 98%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+}
+
+p {
+  color: var(--grayish-blue);
+}
+
+h1,
+h2 {
+  color: var(--very-dark-blue);
+}
+
+.wrapper {
+  padding: 6rem 2rem;
+}
+
+.heading {
+  font-size: 0.75rem;
+  text-align: center;
+  padding-bottom: 4.95rem;
+}
+
+.heading-title {
+  padding-bottom: 1rem;
+}
+
+.heading-thin {
+  font-weight: 200;
+}
+
+.heading-lead {
+  font-size: 0.95rem;
+}
+
+.card {
+  padding: 2rem;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.11);
+  margin-bottom: 1.65rem;
+  border-radius: 5px;
+}
+
+.card-heading {
+  font-size: 1.25rem;
+}
+
+.card-lead {
+  font-size: 0.85rem;
+  padding-bottom: 1.45rem;
+}
+
+.card-icon {
+  position: relative;
+  bottom: -15px;
+  right: -185px;
+  width: 54px;
+  height: auto;
+}
+
+.card-sup {
+  border-top: 4px solid var(--cyan);
+}
+
+.card-team {
+  border-top: 4px solid var(--red);
+}
+
+.card-karma {
+  border-top: 4px solid var(--orange);
+}
+
+.card-calc {
+  border-top: 4px solid var(--blue);
+}
